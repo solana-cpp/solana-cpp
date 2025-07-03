@@ -1,0 +1,21 @@
+#flex-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1000px)
+{
+  #flex-container {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  #flex-container {
+    width: 100%;
+  }
+}

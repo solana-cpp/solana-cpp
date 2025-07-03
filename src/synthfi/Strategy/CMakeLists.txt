@@ -1,0 +1,2 @@
+add_subdirectory(BacktestStrategy)
+add_subdirectory(TakeStrategy)

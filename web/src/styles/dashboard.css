@@ -1,0 +1,8 @@
+#dashboard-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.key-column {
+    color: rgb(152,251,152);
+}

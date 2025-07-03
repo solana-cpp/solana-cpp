@@ -1,0 +1,6 @@
+[submodule "submodules/solana-program-library"]
+	path = submodules/solana-program-library
+	url = https://github.com/solana-labs/solana-program-library.git
+[submodule "submodules/magic_enum"]
+	path = submodules/magic_enum
+	url = https://github.com/Neargye/magic_enum.git

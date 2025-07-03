@@ -1,0 +1,15 @@
+#header {
+    box-sizing: border-box;
+    width: 100%;
+    align-items: baseline;
+    margin-bottom: 4px !important;
+    background-color: rgb(52, 52, 52);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#synthfi {
+    color: rgb(152,251,152);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}

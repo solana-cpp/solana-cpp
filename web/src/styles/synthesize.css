@@ -1,0 +1,41 @@
+#synthesize-page {
+    width: 100%;
+}
+
+#synthesize-form {
+    color: white;
+    text-align: center;
+}
+
+#synthesize-form .form-group {
+    background-color: rgba(44,44,44,255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1.5rem 0rem;
+}
+
+#synthesize-form .form-row {
+    margin: 0;
+}
+
+#synthesize-form #row-label {
+    font-size: small;
+}
+
+#synthesize-form form {
+    border-radius: 10px;
+    border: 1px solid rgb(152,251,152);
+    padding: 3rem 1rem;
+    background: rgb(78,78,83);
+    background: linear-gradient(90deg, rgba(78,78,83,1) 0%, rgba(72,79,76,1) 100%);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#synthesize-button {
+    background-color: rgb(152,251,152);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,80 @@
+.input-group>.input-group-prepend {
+    flex: 0 0 30%;
+}
+
+.input-group>.input-group-append {
+    flex: 0 0 20%;
+}
+
+.input-group .input-group-text {
+    width: 100%;
+}
+
+#synthesize-header .button {
+    background-color: rgb(152,251,152);
+}
+
+#synthesize-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#synthesize-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#synthesize-page .card {
+    margin: 4px 0px;
+}
+
+#synthesize-page .card .collapse {
+    padding: 20px;
+}
+
+#synthesize-page .form-control {
+    width: 50%;
+}
+
+#synthesize-page .pagination {
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#synthesize-page .synthetic-info {
+    padding-left: 2rem;
+}
+
+#synthesize-page .synthetic-info .name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#synthesize-page .synthetic-stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#synthesize-page .synthetic-stat .value {
+    font-weight: bold;
+    justify-content: center;
+}
+
+#synthesize-page .synthetic-stat .name {
+    font-size: small;
+    justify-content: center;
+}
+
+#usdt {
+    align-self: center;
+    color: white;
+}
+
+#usdt img {
+    height: 1.75em;
+    width: 1.75em;
+    border-radius: 1.75em;
+    margin-right: 0.5em;
+}

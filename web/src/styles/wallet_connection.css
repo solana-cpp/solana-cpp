@@ -1,0 +1,39 @@
+#connect-dropdown {
+    border-radius: 10px;
+    background-color: rgb(152,251,152);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    max-width: 15rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#connect-dropdown:hover {
+    max-width: 100%;
+}
+
+div.dropdown-menu.show {
+    background-color: rgb(52, 52, 52);
+    border-radius:4px;
+    border: 1px solid black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#wallet-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(152,251,152);
+}
+
+#wallet-item:hover {
+    color: black;
+    background-color: rgb(152,251,152);
+}
+
+#wallet-item img {
+    height: 1.75em;
+    width: 1.75em;
+    border-radius: 1.75em;
+    margin-right: 0.5em;
+}

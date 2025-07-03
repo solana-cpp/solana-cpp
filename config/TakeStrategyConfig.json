@@ -1,0 +1,70 @@
+{
+	"keyStoreDirectory": "/home/my-solana-wallet",
+	"solanaHttpEndpointConfig":
+	{
+		"host": "api.mainnet-beta.solana.com",
+		"service": "https",
+		"target": "/"
+	},
+	"solanaWsEndpointConfig":
+	{
+		"host": "api.mainnet-beta.solana.com",
+		"service": "https",
+		"target": "/"
+	},
+	"ftxAuthenticationConfig": {
+		"host": "ftx.us",
+		"apiKey": "0TxB6bKpxnVOrhP774x92ygj5h6FUUxQCvv4ympn",
+		"apiSecret": "E6feYhdpTBK8tPMFWkufBYUXtIeep2s_gGIKeUOp"
+	},
+	"statisticsPublisherConfig": {
+		"influxAddress": "localhost",
+		"influxPort": 8086,
+		"influxApiToken": "0K7mbpibz3cFMPdb48AVyW8eebl1HtnOGNNUaIyrwiXGcb3GrLE1fFxwDPbqHKpDvRiFYEEONeqMJNX305vZmg==",
+		"bucket": "strategy"
+	},
+	"takeStrategyOptionsConfig": {
+		"maxUsdTradeSize": 100.0,
+		"minUsdTradeProfit": 1.0
+	},
+	"solanaMaxMultipleAccounts": 100,
+	"mangoAccountAddress": "C2Lia9FrGFQiKpr6VxqB9TYsbeWr6Zm6jU6bG9agCUFm",
+	"tradingPairs": [
+		{
+			"baseCurrency": "BTC",
+			"quoteCurrency": "USD",
+			"ftxMarketName": "BTC/USD",
+			"serumMarketAddress": "A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw"
+		},
+		{
+			"baseCurrency": "ETH",
+			"quoteCurrency": "USD",
+			"ftxMarketName": "ETH/USD",
+			"serumMarketAddress": "4tSvZvnbyzHXLMTiFonMyxZoHmFqau1XArcRCVHLZ5gX"
+		},
+		{
+			"baseCurrency": "SOL",
+			"quoteCurrency": "USD",
+			"ftxMarketName": "SOL/USD",
+			"serumMarketAddress": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT"
+		}
+	],
+	"currencies": [
+		{
+			"mintAddress": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
+			"currencyName": "BTC"
+		},
+		{
+			"mintAddress": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+			"currencyName": "ETH"
+		},
+		{
+			"mintAddress": "So11111111111111111111111111111111111111112",
+			"currencyName": "SOL"
+		},
+		{
+			"mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+			"currencyName": "USD"
+		}
+	]
+}
